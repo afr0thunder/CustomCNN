@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Conda/venv
+env/
+*.env
+*.yml
+
+# PyCharm
+.idea/
+
+# Model checkpoints
+models_ckpt/
+
+# Output
+graded_images/
+logs/
+
+# Datasets
+*.h5
+*.mat
+*.npy
+datasets/
+
+# Other large files
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Jupyter
+*.ipynb_checkpoints
+
+# System
+.DS_Store
+Thumbs.db

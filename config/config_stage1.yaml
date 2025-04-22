@@ -1,0 +1,21 @@
+preprocessing:
+  use_mser: true
+  mser_delta: 5
+  mser_min: 60
+  mser_max: 14400
+
+  sliding_window: true
+  window_size: [24, 32, 40]
+  stride: 4
+  pyramid_scale: 1.5
+  threshold: 0.3
+
+image:
+  normalize: true
+  resize: 32
+  grayscale: false
+
+augmentation:
+  gaussian_noise: true
+  gaussian_std_dev: 0.05
+
